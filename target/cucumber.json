@@ -1,0 +1,937 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10388094369,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeAfter.Initialise(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 144584,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AgBiePageSmokeTest.Setup(Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Visit Page and see Overview tab",
+        "description": "",
+        "id": "visit-page-and-do-smoke-tests;visit-page-and-see-overview-tab",
+        "after": [
+          {
+            "result": {
+              "duration": 46856,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AgBiePageSmokeTest.teardown(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 228040355,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeAfter.GlobalTestTearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1698380923,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Go to URL",
+            "match": {
+              "location": "AgBiePageSmokeTest.go_to_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2604494343,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I do search",
+            "match": {
+              "location": "AgBiePageSmokeTest.i_do_search()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3154133641,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "select a record",
+            "match": {
+              "location": "AgBiePageSmokeTest.select_a_record()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2102982455,
+              "status": "passed"
+            },
+            "output": [
+              "Finished Scenario :Visit Page and see Overview tab"
+            ],
+            "line": 9,
+            "name": "should be able to visit Overview tab",
+            "match": {
+              "location": "AgBiePageSmokeTest.should_be_able_to_visit_Overview_tab()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Overview"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8616453791,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeAfter.Initialise(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 99513,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AgBiePageSmokeTest.Setup(Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Visit Page and see Names tab",
+        "description": "",
+        "id": "visit-page-and-do-smoke-tests;visit-page-and-see-names-tab",
+        "after": [
+          {
+            "result": {
+              "duration": 46410,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AgBiePageSmokeTest.teardown(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 299811326,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeAfter.GlobalTestTearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1417385647,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Go to URL",
+            "match": {
+              "location": "AgBiePageSmokeTest.go_to_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2587760486,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I do search",
+            "match": {
+              "location": "AgBiePageSmokeTest.i_do_search()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3354867184,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "select a record",
+            "match": {
+              "location": "AgBiePageSmokeTest.select_a_record()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2105004851,
+              "status": "passed"
+            },
+            "output": [
+              "Finished Scenario :Visit Page and see Names tab"
+            ],
+            "line": 16,
+            "name": "should be able to visit Names tab",
+            "match": {
+              "location": "AgBiePageSmokeTest.should_be_able_to_visit_Names_tab()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@Names"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9976590272,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeAfter.Initialise(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 86573,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AgBiePageSmokeTest.Setup(Scenario)"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Visit Page and see Classification tab",
+        "description": "",
+        "id": "visit-page-and-do-smoke-tests;visit-page-and-see-classification-tab",
+        "after": [
+          {
+            "result": {
+              "duration": 33915,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AgBiePageSmokeTest.teardown(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 266190550,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeAfter.GlobalTestTearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1510991090,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Go to URL",
+            "match": {
+              "location": "AgBiePageSmokeTest.go_to_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2711287310,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I do search",
+            "match": {
+              "location": "AgBiePageSmokeTest.i_do_search()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3621337085,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "select a record",
+            "match": {
+              "location": "AgBiePageSmokeTest.select_a_record()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2092111405,
+              "status": "passed"
+            },
+            "output": [
+              "Finished Scenario :Visit Page and see Classification tab"
+            ],
+            "line": 23,
+            "name": "should be able to visit Classification tab",
+            "match": {
+              "location": "AgBiePageSmokeTest.should_be_able_to_visit_Classification_tab()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 18,
+            "name": "@Classification"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8636425624,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeAfter.Initialise(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 77200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AgBiePageSmokeTest.Setup(Scenario)"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Visit Page and see Literarture tab",
+        "description": "",
+        "id": "visit-page-and-do-smoke-tests;visit-page-and-see-literarture-tab",
+        "after": [
+          {
+            "result": {
+              "duration": 39270,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AgBiePageSmokeTest.teardown(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 376333500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeAfter.GlobalTestTearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1200448837,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Go to URL",
+            "match": {
+              "location": "AgBiePageSmokeTest.go_to_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2708575460,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I do search",
+            "match": {
+              "location": "AgBiePageSmokeTest.i_do_search()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3156732590,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "select a record",
+            "match": {
+              "location": "AgBiePageSmokeTest.select_a_record()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2111357638,
+              "status": "passed"
+            },
+            "output": [
+              "Finished Scenario :Visit Page and see Literarture tab"
+            ],
+            "line": 30,
+            "name": "should be able to visit Literarture tab",
+            "match": {
+              "location": "AgBiePageSmokeTest.should_be_able_to_visit_Literarture_tab()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 25,
+            "name": "@Literarture"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9643862795,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeAfter.Initialise(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 83895,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AgBiePageSmokeTest.Setup(Scenario)"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Visit Page and see Sequences tab",
+        "description": "",
+        "id": "visit-page-and-do-smoke-tests;visit-page-and-see-sequences-tab",
+        "after": [
+          {
+            "result": {
+              "duration": 26329,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AgBiePageSmokeTest.teardown(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 268608322,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeAfter.GlobalTestTearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1346469241,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Go to URL",
+            "match": {
+              "location": "AgBiePageSmokeTest.go_to_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2604170813,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I do search",
+            "match": {
+              "location": "AgBiePageSmokeTest.i_do_search()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3259274150,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "select a record",
+            "match": {
+              "location": "AgBiePageSmokeTest.select_a_record()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2089209008,
+              "status": "passed"
+            },
+            "output": [
+              "Finished Scenario :Visit Page and see Sequences tab"
+            ],
+            "line": 37,
+            "name": "should be able to visit Sequences tab",
+            "match": {
+              "location": "AgBiePageSmokeTest.should_be_able_to_visit_Sequences_tab()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 32,
+            "name": "@Sequences"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10227070211,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeAfter.Initialise(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 78986,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AgBiePageSmokeTest.Setup(Scenario)"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "Visit Page Search and Refine Results on Species Name",
+        "description": "",
+        "id": "visit-page-and-do-smoke-tests;visit-page-search-and-refine-results-on-species-name",
+        "after": [
+          {
+            "result": {
+              "duration": 26775,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AgBiePageSmokeTest.teardown(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 314271549,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeAfter.GlobalTestTearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1714877375,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Go to URL",
+            "match": {
+              "location": "AgBiePageSmokeTest.go_to_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2606138321,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I do search",
+            "match": {
+              "location": "AgBiePageSmokeTest.i_do_search()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2420444677,
+              "status": "passed"
+            },
+            "output": [
+              "Finished Scenario :Visit Page Search and Refine Results on Species Name"
+            ],
+            "line": 43,
+            "name": "Refine search on Species",
+            "match": {
+              "location": "AgBiePageSmokeTest.refine_search_on_Species()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 39,
+            "name": "@RefineSpecies"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10039306423,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeAfter.Initialise(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 77201,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AgBiePageSmokeTest.Setup(Scenario)"
+            }
+          }
+        ],
+        "line": 46,
+        "name": "Visit Page Search and Refine Results on Common Name",
+        "description": "",
+        "id": "visit-page-and-do-smoke-tests;visit-page-search-and-refine-results-on-common-name",
+        "after": [
+          {
+            "result": {
+              "duration": 28114,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AgBiePageSmokeTest.teardown(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 249862779,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeAfter.GlobalTestTearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1201110623,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "Go to URL",
+            "match": {
+              "location": "AgBiePageSmokeTest.go_to_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2606717551,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I do search",
+            "match": {
+              "location": "AgBiePageSmokeTest.i_do_search()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2360216805,
+              "status": "passed"
+            },
+            "output": [
+              "Finished Scenario :Visit Page Search and Refine Results on Common Name"
+            ],
+            "line": 49,
+            "name": "Refine search on Common Name",
+            "match": {
+              "location": "AgBiePageSmokeTest.refine_search_on_Common_Name()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 45,
+            "name": "@RefineCommonName"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10215581109,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeAfter.Initialise(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 71400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AgBiePageSmokeTest.Setup(Scenario)"
+            }
+          }
+        ],
+        "line": 52,
+        "name": "Visit Page and search TaxanomicStatusAccepted",
+        "description": "",
+        "id": "visit-page-and-do-smoke-tests;visit-page-and-search-taxanomicstatusaccepted",
+        "after": [
+          {
+            "result": {
+              "duration": 25436,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AgBiePageSmokeTest.teardown(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 241640658,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeAfter.GlobalTestTearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2070898110,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "Go to URL",
+            "match": {
+              "location": "AgBiePageSmokeTest.go_to_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3169142302,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I do search",
+            "match": {
+              "location": "AgBiePageSmokeTest.i_do_search()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2432482665,
+              "status": "passed"
+            },
+            "output": [
+              "Finished Scenario :Visit Page and search TaxanomicStatusAccepted"
+            ],
+            "line": 55,
+            "name": "Refine search on TaxonStatus Accepted",
+            "match": {
+              "location": "AgBiePageSmokeTest.refine_search_on_TaxonStatus_Accepted()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 51,
+            "name": "@TaxanomicStatusAccepted"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10280338845,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeAfter.Initialise(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 71400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AgBiePageSmokeTest.Setup(Scenario)"
+            }
+          }
+        ],
+        "line": 58,
+        "name": "Visit Page and Search TaxanomicStatusSynonym",
+        "description": "",
+        "id": "visit-page-and-do-smoke-tests;visit-page-and-search-taxanomicstatussynonym",
+        "after": [
+          {
+            "result": {
+              "duration": 35253,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AgBiePageSmokeTest.teardown(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 256749279,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeAfter.GlobalTestTearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1380870058,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "Go to URL",
+            "match": {
+              "location": "AgBiePageSmokeTest.go_to_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2679459558,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "I do search",
+            "match": {
+              "location": "AgBiePageSmokeTest.i_do_search()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2392053036,
+              "status": "passed"
+            },
+            "output": [
+              "Finished Scenario :Visit Page and Search TaxanomicStatusSynonym"
+            ],
+            "line": 61,
+            "name": "Refine search on TaxonStatus Synonym",
+            "match": {
+              "location": "AgBiePageSmokeTest.refine_search_on_TaxonStatus_Synonym()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 57,
+            "name": "@TaxanomicStatusSynonym"
+          }
+        ]
+      }
+    ],
+    "name": "Visit page and do Smoke tests",
+    "description": "",
+    "id": "visit-page-and-do-smoke-tests",
+    "keyword": "Feature",
+    "uri": "AgBiePageSmokeTest.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@All"
+      },
+      {
+        "line": 1,
+        "name": "@Smoke"
+      }
+    ]
+  }
+]

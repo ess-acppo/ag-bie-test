@@ -1,0 +1,70 @@
+@All @Smoke
+Feature: Visit page and do Smoke tests
+[34mFinished Scenario :Visit Page and see Overview tab[0m
+
+  @Overview
+  Scenario: Visit Page and see Overview tab   [90m# AgBiePageSmokeTest.feature:5[0m
+    [32mGiven [0m[32mGo to URL[0m                           [90m# AgBiePageSmokeTest.go_to_URL()[0m
+    [32mWhen [0m[32mI do search[0m                          [90m# AgBiePageSmokeTest.i_do_search()[0m
+    [32mAnd [0m[32mselect a record[0m                       [90m# AgBiePageSmokeTest.select_a_record()[0m
+    [32mThen [0m[32mshould be able to visit Overview tab[0m [90m# AgBiePageSmokeTest.should_be_able_to_visit_Overview_tab()[0m
+[34mFinished Scenario :Visit Page and see Names tab[0m
+
+  @Names
+  Scenario: Visit Page and see Names tab   [90m# AgBiePageSmokeTest.feature:12[0m
+    [32mGiven [0m[32mGo to URL[0m                        [90m# AgBiePageSmokeTest.go_to_URL()[0m
+    [32mWhen [0m[32mI do search[0m                       [90m# AgBiePageSmokeTest.i_do_search()[0m
+    [32mAnd [0m[32mselect a record[0m                    [90m# AgBiePageSmokeTest.select_a_record()[0m
+    [32mThen [0m[32mshould be able to visit Names tab[0m [90m# AgBiePageSmokeTest.should_be_able_to_visit_Names_tab()[0m
+[34mFinished Scenario :Visit Page and see Classification tab[0m
+
+  @Classification
+  Scenario: Visit Page and see Classification tab   [90m# AgBiePageSmokeTest.feature:19[0m
+    [32mGiven [0m[32mGo to URL[0m                                 [90m# AgBiePageSmokeTest.go_to_URL()[0m
+    [32mWhen [0m[32mI do search[0m                                [90m# AgBiePageSmokeTest.i_do_search()[0m
+    [32mAnd [0m[32mselect a record[0m                             [90m# AgBiePageSmokeTest.select_a_record()[0m
+    [32mThen [0m[32mshould be able to visit Classification tab[0m [90m# AgBiePageSmokeTest.should_be_able_to_visit_Classification_tab()[0m
+[34mFinished Scenario :Visit Page and see Literarture tab[0m
+
+  @Literarture
+  Scenario: Visit Page and see Literarture tab   [90m# AgBiePageSmokeTest.feature:26[0m
+    [32mGiven [0m[32mGo to URL[0m                              [90m# AgBiePageSmokeTest.go_to_URL()[0m
+    [32mWhen [0m[32mI do search[0m                             [90m# AgBiePageSmokeTest.i_do_search()[0m
+    [32mAnd [0m[32mselect a record[0m                          [90m# AgBiePageSmokeTest.select_a_record()[0m
+    [32mThen [0m[32mshould be able to visit Literarture tab[0m [90m# AgBiePageSmokeTest.should_be_able_to_visit_Literarture_tab()[0m
+[34mFinished Scenario :Visit Page and see Sequences tab[0m
+
+  @Sequences
+  Scenario: Visit Page and see Sequences tab   [90m# AgBiePageSmokeTest.feature:33[0m
+    [32mGiven [0m[32mGo to URL[0m                            [90m# AgBiePageSmokeTest.go_to_URL()[0m
+    [32mWhen [0m[32mI do search[0m                           [90m# AgBiePageSmokeTest.i_do_search()[0m
+    [32mAnd [0m[32mselect a record[0m                        [90m# AgBiePageSmokeTest.select_a_record()[0m
+    [32mThen [0m[32mshould be able to visit Sequences tab[0m [90m# AgBiePageSmokeTest.should_be_able_to_visit_Sequences_tab()[0m
+[34mFinished Scenario :Visit Page Search and Refine Results on Species Name[0m
+
+  @RefineSpecies
+  Scenario: Visit Page Search and Refine Results on Species Name [90m# AgBiePageSmokeTest.feature:40[0m
+    [32mGiven [0m[32mGo to URL[0m                                              [90m# AgBiePageSmokeTest.go_to_URL()[0m
+    [32mWhen [0m[32mI do search[0m                                             [90m# AgBiePageSmokeTest.i_do_search()[0m
+    [32mThen [0m[32mRefine search on Species[0m                                [90m# AgBiePageSmokeTest.refine_search_on_Species()[0m
+[34mFinished Scenario :Visit Page Search and Refine Results on Common Name[0m
+
+  @RefineCommonName
+  Scenario: Visit Page Search and Refine Results on Common Name [90m# AgBiePageSmokeTest.feature:46[0m
+    [32mGiven [0m[32mGo to URL[0m                                             [90m# AgBiePageSmokeTest.go_to_URL()[0m
+    [32mWhen [0m[32mI do search[0m                                            [90m# AgBiePageSmokeTest.i_do_search()[0m
+    [32mThen [0m[32mRefine search on Common Name[0m                           [90m# AgBiePageSmokeTest.refine_search_on_Common_Name()[0m
+[34mFinished Scenario :Visit Page and search TaxanomicStatusAccepted[0m
+
+  @TaxanomicStatusAccepted
+  Scenario: Visit Page and search TaxanomicStatusAccepted [90m# AgBiePageSmokeTest.feature:52[0m
+    [32mGiven [0m[32mGo to URL[0m                                       [90m# AgBiePageSmokeTest.go_to_URL()[0m
+    [32mWhen [0m[32mI do search[0m                                      [90m# AgBiePageSmokeTest.i_do_search()[0m
+    [32mThen [0m[32mRefine search on TaxonStatus Accepted[0m            [90m# AgBiePageSmokeTest.refine_search_on_TaxonStatus_Accepted()[0m
+[34mFinished Scenario :Visit Page and Search TaxanomicStatusSynonym[0m
+
+  @TaxanomicStatusSynonym
+  Scenario: Visit Page and Search TaxanomicStatusSynonym [90m# AgBiePageSmokeTest.feature:58[0m
+    [32mGiven [0m[32mGo to URL[0m                                      [90m# AgBiePageSmokeTest.go_to_URL()[0m
+    [32mWhen [0m[32mI do search[0m                                     [90m# AgBiePageSmokeTest.i_do_search()[0m
+    [32mThen [0m[32mRefine search on TaxonStatus Synonym[0m            [90m# AgBiePageSmokeTest.refine_search_on_TaxonStatus_Synonym()[0m

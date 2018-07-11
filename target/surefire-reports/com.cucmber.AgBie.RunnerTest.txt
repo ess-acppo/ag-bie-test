@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.cucmber.AgBie.RunnerTest
+-------------------------------------------------------------------------------
+Tests run: 41, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 165.678 sec - in com.cucmber.AgBie.RunnerTest

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="9" time="164.997716">
+<testcase classname="Visit page and do Smoke tests" name="Visit Page and see Overview tab" time="20.176318">
+<system-out><![CDATA[Given Go to URL.............................................................passed
+When I do search............................................................passed
+And select a record.........................................................passed
+Then should be able to visit Overview tab...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Visit page and do Smoke tests" name="Visit Page and see Names tab" time="18.381429">
+<system-out><![CDATA[Given Go to URL.............................................................passed
+When I do search............................................................passed
+And select a record.........................................................passed
+Then should be able to visit Names tab......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Visit page and do Smoke tests" name="Visit Page and see Classification tab" time="20.178628">
+<system-out><![CDATA[Given Go to URL.............................................................passed
+When I do search............................................................passed
+And select a record.........................................................passed
+Then should be able to visit Classification tab.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Visit page and do Smoke tests" name="Visit Page and see Literarture tab" time="18.18999">
+<system-out><![CDATA[Given Go to URL.............................................................passed
+When I do search............................................................passed
+And select a record.........................................................passed
+Then should be able to visit Literarture tab................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Visit page and do Smoke tests" name="Visit Page and see Sequences tab" time="19.211705">
+<system-out><![CDATA[Given Go to URL.............................................................passed
+When I do search............................................................passed
+And select a record.........................................................passed
+Then should be able to visit Sequences tab..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Visit page and do Smoke tests" name="Visit Page Search and Refine Results on Species Name" time="17.282908">
+<system-out><![CDATA[Given Go to URL.............................................................passed
+When I do search............................................................passed
+Then Refine search on Species...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Visit page and do Smoke tests" name="Visit Page Search and Refine Results on Common Name" time="16.457319">
+<system-out><![CDATA[Given Go to URL.............................................................passed
+When I do search............................................................passed
+Then Refine search on Common Name...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Visit page and do Smoke tests" name="Visit Page and search TaxanomicStatusAccepted" time="18.129842">
+<system-out><![CDATA[Given Go to URL.............................................................passed
+When I do search............................................................passed
+Then Refine search on TaxonStatus Accepted..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Visit page and do Smoke tests" name="Visit Page and Search TaxanomicStatusSynonym" time="16.989577">
+<system-out><![CDATA[Given Go to URL.............................................................passed
+When I do search............................................................passed
+Then Refine search on TaxonStatus Synonym...................................passed
+]]></system-out>
+</testcase>
+</testsuite>
